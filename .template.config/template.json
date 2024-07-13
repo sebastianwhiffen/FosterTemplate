@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Sebastian Whiffen",
+  "classifications": ["FosterEngine", "BoilerPlate"],
+  "identity": "FosterTemplate.BoilerPlate",
+  "name": "Foster BoilerPlate",
+  "shortName": "FosterTemplate",
+  "sourceName": "FosterTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
