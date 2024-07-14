@@ -1,22 +1,24 @@
-
-public class Game : Module
+class Game : Module
 {
     public const string GamePath = "FosterTemplate";
+	private readonly Batcher batch = new();
 
-    public Game()
-    {
-    }
+
+	public override void Update()
+	{
+	}
 
     public override void Startup()
-    {
-        Graphics.Clear(Color.White);
-    }
-
-    public override void Update()
     {
     }
 
     public override void Render()
-    {
-    }
+	{
+		Graphics.Clear(0x44aa77);
+
+		batch.Circle(new Circle(Input.Mouse.Position, 8), 16, Color.White);
+
+		batch.Render();
+		batch.Clear();
+	}
 }
