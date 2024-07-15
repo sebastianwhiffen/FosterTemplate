@@ -477,7 +477,7 @@ riderModule.iml
 /_ReSharper.Caches/```
 
 # VS Code
-**/.vscode
+# **/.vscode
 
 #security
 **.pem
