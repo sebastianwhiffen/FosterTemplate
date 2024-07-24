@@ -1,3 +1,3 @@
 ﻿
-App.Run<Game>(Game.GamePath, 1280, 720);
+App.Run<Game>("hi", 1280, 720);
 

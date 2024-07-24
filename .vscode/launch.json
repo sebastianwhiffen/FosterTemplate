@@ -14,7 +14,7 @@
             "stopAtEntry": false,
             "console": "internalConsole",
             "windows": {
-                "program": "${workspaceFolder}/bin/Debug/net8.0/win-x64/FosterTemplate.dll",
+                "program": "${workspaceFolder}/bin/Debug/net8.0/FosterTemplate.dll",
             },
         },
         {
